@@ -57,6 +57,13 @@ int secondLength;
     std::cout << "the length of the second array you want to print: ";
     std::cin >> secondLength;
 
+    if (firstLength > 5 || secondLength > 5)
+    {
+        std::cout << "Error: Array length exceeds 5." << std::endl;
+        return 1;
+    }
+    
+
     std::cout << std::endl;
     std::cout << "the first array is: ";
     printarray(firstarr, firstLength);
