@@ -28,23 +28,24 @@ int main(int argc, char** argv){
 
 //   int numbers[3] = {10, 20, 30};
     int numbers[3];
-    numbers[0] = 10;
-    numbers[1] = 20;
-    numbers[2] = 30;
+    numbers[0] = 1;
+    numbers[1] = 3;
+    numbers[2] = 5;
 
 // for print array
-int firstarr[5];
-int secondarr[5];
+
 int firstLength;
 int secondLength;
+int firstarr[firstLength];
+int secondarr[secondLength];
 
     std::cout << "enter the first array: ";
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < firstLength; i++)
     {
         std::cin >> firstarr[i];
     }
     std::cout << "enter the second array: ";
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < secondLength; i++)
     {
         std::cin >> secondarr[i];
     }
@@ -66,6 +67,6 @@ int secondLength;
 std::cout << std::endl;
 
 // for average
-    std::cout << "hello the average is " << Average(numbers) << std::endl;
+    std::cout << "average: " << Average(numbers) << std::endl;
 
 }
