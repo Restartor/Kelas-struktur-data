@@ -1,18 +1,12 @@
 # Kelas Struktur Data - Pertemuan 1
+Penjelasan Array
 
-A C++ program demonstrating basic array operations: user input, dynamic printing, and calculating the average of array elements.
 
-## How to run
+# Kelas Struktur Data - Pertemuan 2
+input output penggunaan array
 
-Run the pre-compiled executable:
 
-```cmd
-.\Pertemuan-1.exe
-```
+# Kelas Struktur Data - Pertemuan 3
 
-Or compile from source:
+penggunaan struct pada array
 
-```bash
-g++ Pertemuan-1.cpp -o Pertemuan-1.exe
-.\Pertemuan-1.exe
-```
