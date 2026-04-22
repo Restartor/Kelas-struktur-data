@@ -41,8 +41,8 @@ int main(int argc, char const *argv[])
     cin >> a;
 
     int data[a];
-    int n = 10, cari;
-    int low =0, high = n-1, mid;
+    int cari;
+    int low =0, high = a-1, mid;
     int ditemukan = 0;
 
     for (int i = 0; i < a; i++)
