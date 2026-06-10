@@ -11,7 +11,7 @@ int faktorial(int n){
     }
     else{
         
-        cout << n << " x";
+        cout << n << " * ";
 
         return n * faktorial(n-1);
     }
