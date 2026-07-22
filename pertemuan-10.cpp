@@ -5,7 +5,7 @@ using namespace std;
 struct Node{
     int data;
     Node* next;
-}
+};
 
 Node* head = NULL;
 
@@ -28,10 +28,11 @@ void Enqueue(int nilai){
 void Deque(){
     if(head==NULL){
         cout << "QUEUE KOSONG! " << endl;
-        return
+        return;
     }
     Node* hapus = head;
     head = head->next;
+    delete hapus;
 }
 
 void tampil(){
@@ -47,11 +48,12 @@ void tampil(){
 
 int main(int argc, char ** argv){
 
-    Enqueue(30)
-    Enqueue(10)
-    Enqueue(20)
-    tampil()
+    Enqueue(30);
+    Enqueue(10);
+    Enqueue(20);
+    tampil();
 
-    Deque()
-    tampil()
+    Deque();
+    tampil();
+    
 }
